@@ -8,8 +8,8 @@ Watch your Docker containers on your Elgato Stream Deck, powered by the
 
 ## Features
 
-Each container gets a row of live-updating keys (two actions: **Container Name**
-and **Container Metric** — each Metric key shows the column you pick):
+Each container gets a row of live-updating keys — all the same **Container**
+action; each key's column setting picks its face:
 
 - **Name** — on a background colored by container status (green running/healthy,
   orange paused/restarting/starting, dark orange running-but-unhealthy). Press to
@@ -52,9 +52,9 @@ device, and a ready-made 15-key profile is included.
 ## Setup
 
 1. Install the bundled 15-key profile (offered on install, or press the **Open
-   Profile** key), or add **Container Name** and **Container Metric** keys to
-   rows — each key detects its list row automatically from its position on the
-   deck (topmost plugin row = first container).
+   Profile** key), or add **Container** keys to rows and pick each key's
+   column — each key detects its list row automatically from its position on
+   the deck (topmost plugin row = first container).
 1. Open any key's settings → **Glances connection** → add your host(s): label,
    host/IP, port, protocol, and credentials if your server uses them — then press
    **Test** to verify.
