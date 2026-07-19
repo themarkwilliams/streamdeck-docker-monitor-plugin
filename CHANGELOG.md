@@ -5,6 +5,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versions follo
 
 ## [Unreleased]
 
+## [0.1.20] - 2026-07-19
+### Added
+- All metric columns now sort on press: Status (worst first: stopped, unhealthy, transitioning, healthy), Disk I/O (combined read+write rate), Network (combined rx+tx rate), and Image (alphabetical) join CPU, Memory and Uptime. Press again to flip; the sort indicator shows on whichever column is active.
+
 ## [0.1.19] - 2026-07-19
 ### Added
 - A per-container URL override of `none` (or `-`) disables the link for that container entirely: no browser launch, no Glances-UI fallback, and the link badge is hidden. For containers whose published ports serve nothing openable, such as a reverse proxy.
